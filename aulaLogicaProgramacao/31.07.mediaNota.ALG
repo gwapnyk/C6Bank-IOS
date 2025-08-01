@@ -1,4 +1,6 @@
 Algoritmo "medias"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 Var
 notaUm : real
@@ -8,19 +10,22 @@ media : real
 
 
 Inicio
-      escreval ("Escreva a nota 1")
+      escreval ("Escreva a primeira nota")
       leia (notaUm)
-      escreval ("Escreva a nota 2")
+      escreval ("Escreva a segunda nota")
       leia (notaDois)
-      escreval ("Escreva a nota 3")
+      escreval ("Escreva a terceira nota")
       leia (notaTres)
       media <- (notaUm + notaDois + notaTres) / 3
+      escreval
       escreval ("A media do aluno é: ", media )
+      escreval
       
       se media >= 5 entao
-           escreval ("o Aluno foi aprovado")
+           escreval ("Congratulations!! Você foi aprovado :)")
       senao
-           escreval ("o Aluno foi reprovado")
+           escreval ("Você foi reprovado ;-;")
+           escreval ("Estude mais na próxima")
       fimse
 
 
